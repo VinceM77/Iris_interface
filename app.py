@@ -25,7 +25,7 @@ def form():
         
         df = pd.DataFrame(data, index=[0])
         
-        # Utilisez la méthode classement de votre modèle
+        # méthode classement de notre modèle
         result, probabilities = model.classement(df)
         
         flowers ={
